@@ -1,0 +1,266 @@
+html,
+body {
+  background-color: #333;
+  margin: 0;
+}
+
+.header {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.header .logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.header .lang a {
+  color: #ffffff;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px;
+}
+.header .lang a:hover,
+.menu li a:hover{
+  color: red;
+  border-bottom: 2px solid antiquewhite;
+  top: -5px;
+}
+
+.menu {
+  display: block;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.menu li {
+  margin: auto 10px;
+  list-style-type: none;
+  padding-top: 8px;
+}
+
+.menu li a {
+  color: #f2f2ff;
+  text-decoration: none;
+  position: relative;
+}
+
+.main-ctn {
+  height: 60vh;
+  color: #ffffff;
+  text-align: center;
+  background: url('./moon.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+.inpt{
+  display: block;
+  justify-content: space-around;
+  margin: 0 20px 50px 20px;
+  background-color: black;
+ padding: 10px 0;
+  border-radius: 20px;
+}
+.inpt div{
+  margin-left: 50%;
+  position: relative;
+  transform: translateX(-40%);
+  
+}
+.inpt label{
+  color: white;
+  margin-left: 5px;
+}
+.inpt input:hover{
+  background-color:#deb887 ;
+}
+.inpt input{
+  background-color:chocolate ;
+  border-radius: 7px;
+}
+
+.inpt button{
+  background-color: darkgoldenrod;
+  height: 40px;
+  width: 120px;
+  border-radius: 7px;
+  margin-top: 10px;
+  margin-left: 23px;
+}
+.inpt button:hover{
+  cursor: pointer;
+  position: relative;
+  top: -3px;
+  border: 1px solid grey;
+}
+
+
+
+.main-ctn2{
+  display: block;
+  margin-bottom: 20px;
+}
+.main-ctn2 h2,h3,{
+  color: black;
+}
+.main-ctn2 p,button{
+  color:white;
+}
+
+.main-ctn2 h2,h1{
+  margin: 0 0 10px 30px;
+}
+.main-ctn2 h1{
+  margin-left: 50px;
+}
+.img-ctn{
+  max-width: 500px;
+}
+.ctn1{
+  max-width: 500px;
+}
+.img-ctn img{
+  display: block;
+  border-radius: 20px;
+  margin: 10px 10px 10px 30px;
+  margin-left: 20px;
+  width:90%;
+  max-width: 500px;
+
+}
+.info-ctn{
+  width: 60%;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: rgb(67, 67, 67);
+  margin: 15px 0 0 20px;
+}
+.info-ctn button{
+  background-color: #333;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding:12px 25px;
+  margin: 10px 0 10px 20px;
+  font-size: 17px;
+}
+.info-ctn button:hover{
+  background-color: blue;
+  cursor: pointer;
+  position: relative;
+  top: -4px;
+}
+
+
+
+
+.ctn2 img{
+  width: 90%;
+  max-height: 700px;
+  border-radius: 700px;
+  padding-left: 10px;
+}
+
+
+
+
+
+
+
+.fqa {
+  margin: auto 30px 100px;
+}
+
+.fqa h2 {
+  color: #f2f2ff;
+  font-size: 40px;
+}
+
+.fqa .answers-ctn button{
+  padding: 10px 30px;
+  border: 1px solid #f2f2ff;
+  color: #f2f2ff;
+  border-radius: 8px;
+  cursor: pointer;
+  display: block;
+}
+.fqa .answers-ctn button:hover{
+  background-color: #6456ff;
+  border: 1px solid #6456ff;;
+}
+.fqa button{
+  background-color: #333;
+}
+
+.cards{
+  margin: auto 30px 100px;
+  display: block;
+}
+
+.cards .card{
+  padding: 15px 10px; 
+  background-color: #2d2d2d;
+  width: 95%;
+  border-radius: 18px;
+  color: #f2f2ff;
+  margin: auto 10px;
+  height: 570px;
+}
+
+#img1{
+  border-radius: 8px;
+  height: 350px;
+}
+
+#img2{
+  height: 350px;
+}
+#img3{
+  height: 350px;
+}
+
+.cards .card img{
+  width: 100%;
+}
+
+.cards .card button{
+  background: none;
+  border: 1px solid #f2f2ff;
+  padding: 15px 60px;
+  border-radius: 8px;
+  color: #f2f2ff;
+  cursor: pointer;
+}
+
+.cards .card:hover{
+  background-color: #6456ff;
+  position: relative;
+  top: -20px;
+}
+
+.cards .card:hover > button{
+  background-color: #f2f2ff;
+  color: #6456ff;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #f2f2ff;
+  padding: 30px 0;
+  border-top: 1px solid #f2f2ff;
+  margin: auto 30px;
+}
